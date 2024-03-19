@@ -1,0 +1,45 @@
+Scenario Details 
+
+You have been hired to design a database for a toy shop business. The following are details about 
+how this toy shop operates:
+
+• Customer details must be recorded. This includes a customer number, first name, last name, 
+email address and password.
+
+• The store wishes to implement a “referral system” to reward customers who tell 
+others about the store. Therefore, customer details should also include a “referrer” column, 
+which will contain the customer number of the customer who referred them, if applicable 
+(not all customers are referred by someone).
+
+• Customers can define addresses which are stored in the database. A customer can define 
+multiple addresses, and each address is associated with a single customer via their customer 
+ID number. As well as specifying the address itself, customers can specify a name for the 
+address, e.g. “Home”. An address ID number is used to identify each address.
+
+• Details of item suppliers must be recorded (i.e. the sources of the items that they sell). This 
+includes a supplier ID number, business name, phone number and website URL.
+
+• Details of products must be recorded. This includes an item ID number, name, description, 
+price (how much the store sells it for), cost (how much it costs the store to buy) and stock 
+(how many of the item the store currently has available).
+
+• The store keeps track of the supplier of each product. Products only have one 
+supplier.
+
+• A list of item categories must be recorded, and the database must keep track of which items 
+are in which categories. All items are in at least one category, but can be in several of them.
+
+• The only category details required are a category ID number and a category name.
+
+• Details of orders made by customers must be recorded. This includes an invoice ID number, 
+the date/time of the order, a delivery address and a billing address, as well as the customer 
+ID number of the customer who made the order.
+
+• For each order, the database must record details of ordered products (i.e. which products 
+were included in the order) and the quantity ordered. Each order must contain at least one 
+item.
+
+• The toy shop has decided to start doing limited time special events. Each event has a name, 
+a start date/time and an end date/time. The store offers a percentage discount to all orders 
+made during the event (that is all orders with an order date that occurs after the event’s 
+start date and before the event’s end date) which the database will need to keep track of
